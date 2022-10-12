@@ -1,3 +1,4 @@
+print("RA2211042010036")
 principal = int(input("enter principal amount: "))
 rate = int(input("enter rate of intrest: "))
 time = int(input("enter no.of years: "))
