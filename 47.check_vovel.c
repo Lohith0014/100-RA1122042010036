@@ -2,7 +2,6 @@ int main()
 {
     printf("RA2211042010036\n");
     char ch;
-    bool isVowel = false;
 
     printf("Enter an alphabet: ");
     scanf("%c",&ch);
@@ -10,12 +9,9 @@ int main()
     if(ch=='a'||ch=='A'||ch=='e'||ch=='E'||ch=='i'||ch=='I'
     		||ch=='o'||ch=='O'||ch=='u'||ch=='U')
     {
-    	isVowel = true;
-
+    	        printf("%c is a Vowel", ch);
     }
-    if (isVowel == true)
-        printf("%c is a Vowel", ch);
     else
         printf("%c is a Consonant", ch);
     return 0;
-}
+    }
