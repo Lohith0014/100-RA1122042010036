@@ -1,10 +1,10 @@
 int main()
 {
     printf("RA2211042010036\n");
-    double a, b, product;
+    int a, b, product;
     printf("Enter two numbers: ");
-    scanf("%lf %lf", &a, &b);  
+    scanf("%d %d", &a, &b);  
     product = a * b;
-    printf("Product = %.2lf", product);
+    printf("Product = %d", product);
     return 0;
 }
